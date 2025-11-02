@@ -3,7 +3,7 @@ service: api-vision-artificial
 
 provider:
   name: aws
-  runtime: python3.13
+  runtime: python3.9 
   memorySize: 1024
   timeout: 20
   iam:
